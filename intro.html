@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First App</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="jquery.js">
+</script>
+
+<script>
+	$("document").ready(function(){
+	// 	$("#content").append("<p>Loading data</p>");
+		//selector paragraf
+		//$("p").css("border", "3px solid blue");
+
+		// var newP = $("<p>");
+		// newP.append("<em>Welcome ..</em>");
+
+		// $("#artikel").html(newP);
+
+		$("#artikel").find("#para4").css("border","3px solid green")
+
+	 });
+
+</script>
+
+<body>
+<h1 id="intro">Welcome Page</h1>
+<div id="content">
+	<p>Ini adalah paragraf berdasarkan </p>
+	
+
+	<div id="artikel">
+
+		<p id="para1"> ini paragraf 1</p>
+		<p id="para2"> ini paragraf 2</p>
+		<p id="para3"> ini paragraf 3</p>		
+
+		<p id="para4"> ini paragraf 4</p>
+
+	</div>
+
+</div>
+
+</body>
+</html>
